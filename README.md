@@ -20,6 +20,7 @@ reviewer: 금재님
 - todoList.innerHTML = ""와 같이 innerHTML 속성을 이용해 직접 HTML 코드를 수정하는 방식은 좋지 않습니다. 이 방식은 모든 하위 노드들을 다시 생성하고 렌더링하기 때문에, 성능 저하를 유발. 대신, todoList 요소의 자식 노드들을 하나씩 삭제하는 방식(while (todoList.firstChild) todoList.removeChild(todoList.firstChild);)으로 구현하면 성능상 이점이 있음.
 
 ###4.공통적으로 몰랐던 부분
+
 -closest,toggle,contains 내가 사용하여 코드를 작성했으나 끝마치고 나면 이것들이 어떠한 역할을 했는지 이해하고 복습하는 것이 필요해 보임.
 
 -설명
